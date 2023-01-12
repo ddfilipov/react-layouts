@@ -8,6 +8,8 @@ const Wrapper = styled.div`
     right: 0px;
     bottom: 0px;
     left: 0px;
+    max-height: 100vh;
+    max-width: 100vw;
 `;
 
 const Layout = styled.div`
@@ -15,19 +17,34 @@ const Layout = styled.div`
     grid-template-columns: 35% 65%;
     grid-template-rows: 55px auto;
     div {
-        height: vw;
         border: 1px solid black;
     }
 `;
 
-const NavMenu = styled.div``
+const NavMenu = styled.div`
+    display: flex;
+    flex-direction: column;
+    grid-column: 1/3;
+    grid-row: 1/2;
+    align-items: center;
+    justify-content: center;
+`;
+
+const QuoteArea = styled.div`
+    display: flex;
+    flex-direction: column;
+    grid-column: 1/2;
+    grid-row: 2/3;
+    align-items: center;
+    justify-content: center;
+`;
 
 function App() {
     return (
         <Wrapper>
             <Layout>
-                <div>aaaaaaaaaaaaa</div>
-                <div></div>
+                <NavMenu>NAVBAR</NavMenu>
+                <QuoteArea>QUOTE AREA</QuoteArea>
             </Layout>
         </Wrapper>
     );
