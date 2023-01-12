@@ -4,7 +4,7 @@ import { Layout1 } from "./components/Layout1";
 
 const Layout = styled.div`
     display: grid;
-    grid-template-columns: 5fr 3fr;
+    grid-template-columns: 3fr 5fr;
     grid-template-rows: 5% auto;
     gap: 5px;
     grid-gap: 10px;
