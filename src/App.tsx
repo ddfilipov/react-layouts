@@ -6,10 +6,11 @@ const Layout = styled.div`
     display: grid;
     grid-template-columns: 3fr 5fr;
     grid-template-rows: 5% auto;
-    gap: 5px;
-    grid-gap: 10px;
+    gap: 15px;
+    padding: 10px;
     width: 100vw;
     height: 100vh;
+    box-sizing: border-box;
     div {
         border: 1px solid black;
     }
