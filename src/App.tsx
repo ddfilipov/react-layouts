@@ -46,12 +46,21 @@ const MainArea = styled.div`
     justify-content: center;
 `;
 
+const VeryTallDiv = styled.div`
+    background: #103757;
+    height: 1200px;
+    width: 250px;
+`;
+
 function App() {
     return (
         <Layout>
             <NavMenu>NAVBAR</NavMenu>
             <QuoteArea>QUOTE AREA</QuoteArea>
-            <MainArea>MAIN AREA</MainArea>
+            <MainArea>
+                <h2>MAIN AREA</h2>
+                <VeryTallDiv>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</VeryTallDiv>
+            </MainArea>
         </Layout>
         // <Layout1 />
     );
