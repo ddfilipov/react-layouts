@@ -48,6 +48,7 @@ const MainArea = styled.div`
     justify-content: start;
     overflow-y: auto;
     padding: 10px;
+    /* position: relative; */
 `;
 
 const VeryTallDiv = styled.div`
@@ -56,13 +57,23 @@ const VeryTallDiv = styled.div`
     width: 250px;
 `;
 
+const StickyTitle = styled.div`
+    width: 100%;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    background-color: #7b98af;
+`;
+
 function App() {
     return (
         <Layout>
             <NavMenu>NAVBAR</NavMenu>
             <QuoteArea>QUOTE AREA</QuoteArea>
             <MainArea>
-                <h2>MAIN AREA</h2>
+                <StickyTitle>
+                    <h2>MAIN AREA</h2>
+                </StickyTitle>
                 <VeryTallDiv>
                     <ul>
                         <li>a</li>
