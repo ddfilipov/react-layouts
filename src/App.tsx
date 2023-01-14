@@ -52,7 +52,7 @@ const MainArea = styled.div`
 
 const VeryTallDiv = styled.div`
     background: #103757;
-    height: 1200px;
+    height: auto;
     width: 250px;
 `;
 
@@ -65,36 +65,6 @@ function App() {
                 <h2>MAIN AREA</h2>
                 <VeryTallDiv>
                     <ul>
-                        <li>a</li>
-                        <li>a</li>
-                        <li>a</li>
-                        <li>a</li>
-                        <li>a</li>
-                        <li>a</li>
-                        <li>a</li>
-                        <li>a</li>
-                        <li>a</li>
-                        <li>a</li>
-                        <li>a</li>
-                        <li>a</li>
-                        <li>a</li>
-                        <li>a</li>
-                        <li>a</li>
-                        <li>a</li>
-                        <li>a</li>
-                        <li>a</li>
-                        <li>a</li>
-                        <li>a</li>
-                        <li>a</li>
-                        <li>a</li>
-                        <li>a</li>
-                        <li>a</li>
-                        <li>a</li>
-                        <li>a</li>
-                        <li>a</li>
-                        <li>a</li>
-                        <li>a</li>
-                        <li>a</li>
                         <li>a</li>
                         <li>a</li>
                         <li>a</li>
