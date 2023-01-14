@@ -14,6 +14,7 @@ const Layout = styled.div`
     div {
         border: 1px solid black;
     }
+    /* position: relative; */
 `;
 
 const NavMenu = styled.div`
@@ -44,6 +45,9 @@ const MainArea = styled.div`
     grid-row: 2/3;
     align-items: center;
     justify-content: center;
+    justify-content: start;
+    overflow-y: auto;
+    padding: 10px;
 `;
 
 const VeryTallDiv = styled.div`
@@ -59,7 +63,123 @@ function App() {
             <QuoteArea>QUOTE AREA</QuoteArea>
             <MainArea>
                 <h2>MAIN AREA</h2>
-                <VeryTallDiv>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</VeryTallDiv>
+                <VeryTallDiv>
+                    <ul>
+                        <li>a</li>
+                        <li>a</li>
+                        <li>a</li>
+                        <li>a</li>
+                        <li>a</li>
+                        <li>a</li>
+                        <li>a</li>
+                        <li>a</li>
+                        <li>a</li>
+                        <li>a</li>
+                        <li>a</li>
+                        <li>a</li>
+                        <li>a</li>
+                        <li>a</li>
+                        <li>a</li>
+                        <li>a</li>
+                        <li>a</li>
+                        <li>a</li>
+                        <li>a</li>
+                        <li>a</li>
+                        <li>a</li>
+                        <li>a</li>
+                        <li>a</li>
+                        <li>a</li>
+                        <li>a</li>
+                        <li>a</li>
+                        <li>a</li>
+                        <li>a</li>
+                        <li>a</li>
+                        <li>a</li>
+                        <li>a</li>
+                        <li>a</li>
+                        <li>a</li>
+                        <li>a</li>
+                        <li>a</li>
+                        <li>a</li>
+                        <li>a</li>
+                        <li>a</li>
+                        <li>a</li>
+                        <li>a</li>
+                        <li>a</li>
+                        <li>a</li>
+                        <li>a</li>
+                        <li>a</li>
+                        <li>a</li>
+                        <li>a</li>
+                        <li>a</li>
+                        <li>a</li>
+                        <li>a</li>
+                        <li>a</li>
+                        <li>a</li>
+                        <li>a</li>
+                        <li>a</li>
+                        <li>a</li>
+                        <li>a</li>
+                        <li>a</li>
+                        <li>a</li>
+                        <li>a</li>
+                        <li>a</li>
+                        <li>a</li>
+                        <li>a</li>
+                        <li>a</li>
+                        <li>a</li>
+                        <li>a</li>
+                        <li>a</li>
+                        <li>a</li>
+                        <li>a</li>
+                        <li>a</li>
+                        <li>a</li>
+                        <li>a</li>
+                        <li>a</li>
+                        <li>a</li>
+                        <li>a</li>
+                        <li>a</li>
+                        <li>a</li>
+                        <li>a</li>
+                        <li>a</li>
+                        <li>a</li>
+                        <li>a</li>
+                        <li>a</li>
+                        <li>a</li>
+                        <li>a</li>
+                        <li>a</li>
+                        <li>a</li>
+                        <li>a</li>
+                        <li>a</li>
+                        <li>a</li>
+                        <li>a</li>
+                        <li>a</li>
+                        <li>a</li>
+                        <li>a</li>
+                        <li>a</li>
+                        <li>a</li>
+                        <li>a</li>
+                        <li>a</li>
+                        <li>a</li>
+                        <li>a</li>
+                        <li>a</li>
+                        <li>a</li>
+                        <li>a</li>
+                        <li>a</li>
+                        <li>a</li>
+                        <li>a</li>
+                        <li>a</li>
+                        <li>a</li>
+                        <li>a</li>
+                        <li>a</li>
+                        <li>a</li>
+                        <li>a</li>
+                        <li>a</li>
+                        <li>a</li>
+                        <li>a</li>
+                        <li>a</li>
+                    </ul>
+                </VeryTallDiv>
             </MainArea>
         </Layout>
         // <Layout1 />
